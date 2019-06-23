@@ -25,7 +25,6 @@ fn main() {
     orangeHrm::get::getUserList(orangeHrmDocker, &access_token);
     let username = "guest";
     let password = "guest";
-    let openCRX = format!("http://{}:{}@sepp-crm.inf.h-brs.de/opencrx-core-CRX",username,password);
 
     openCRX::get::get();
 }
