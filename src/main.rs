@@ -14,6 +14,7 @@ fn main() {
 
     let orangeHrm = "https://sepp-hrm.inf.h-brs.de";
     let orangeHrmDocker = "https://orangehrm.ironmanserver.de";
+    let open_crx ="https://sepp-crm.inf.h-brs.de/";
 
     let data = orangeHrm::post::TokenIssuePost {
             client_id: String::from("admin"),
@@ -23,8 +24,7 @@ fn main() {
 
     let access_token = orangeHrm::post::basic_post(orangeHrmDocker, data);
     orangeHrm::get::getUserList(orangeHrmDocker, &access_token);
-    let username = "guest";
-    let password = "guest";
+    openCRX::get_json::getUserList(open_crx);
 
-    openCRX::get::get();
+    // openCRX::get::get();
 }

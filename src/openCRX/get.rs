@@ -37,3 +37,7 @@ pub fn get() -> Result<(), Box<std::error::Error>> {
  }
 
 
+pub fn get_json(){
+    
+}
+
