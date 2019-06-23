@@ -1,58 +1,39 @@
-extern crate hyper;
-
 use std::io::{self, Write};
 use hyper::Client;
 use hyper::rt::{self, Future, Stream};
+extern crate reqwest;
+use reqwest::header;
+use std::io::Read;
+use std::collections::HashMap;
+use std::fs::File;
+use std::io::prelude::*;
 
-use serde_xml_rs::from_reader;
 
-// #[derive(Deserialize, Debug)]
-// struct User {
-//     #[serde(default)]
-//     industry: String
-// }
-
-// #[derive(Deserialize, Debug)]
-// struct UserList {
-//     data: Vec<User>
-// }
-
-#[derive(Debug, Deserialize)]
-struct Item {
-    pub url: String
+fn write_to_file(body : &String) -> std::io::Result<()>{
+    let mut file = File::create("opencrx.txt")?;
+    let len = body.len();
+    let slice = &body[..];
+    file.write_all(slice.as_bytes())?;
+    Ok(())
+}
+pub fn build_header() -> hyper::HeaderMap{
+    let mut headers = header::HeaderMap::new();
+    headers.insert(header::AUTHORIZATION, header::HeaderValue::from_static("Basic Z3Vlc3Q6Z3Vlc3QK"));
+    return headers;
 }
 
-
-pub fn api_get() {
-   rt::run(rt::lazy(|| {
-       let client = Client::new();
-
-let uri = "http://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account?userName=guest".parse().unwrap();
-
-client
-    .get(uri)
-    .map(|res| {
-        println!("Response: {}", res.status());
-    })
-    .map_err(|err| {
-        println!("Error: {}", err);
-    })
-    }));
-}
+pub fn get() -> Result<(), Box<std::error::Error>> {
+    let headers = build_header();
+    let client = reqwest::Client::builder()
+        .default_headers(headers)
+        .build()?;
+    let mut res = client.get("https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account").send()?;
+    // println!("{:?}", res.text());
+    let mut body = String::new();
+    res.read_to_string(&mut body)?;
+    println!("{}", body);
+    write_to_file(&body);
+    Ok(())
+ }
 
 
-// pub fn get_user_list(url: &String) {
-//     // let auth = "Z3Vlc3Q6Z3Vlc3Q=";
-//     // let url = "https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account?userName=guest";
-//     // println!("{}", url);
-//     // let mut client = RestClient::new(&url).unwrap();
-//     // // println!("{:?}", client.get());
-//     // // client.set_auth("guest", "guest");
-//     // //  client
-//     // //     .set_header(AUTHORIZATION.as_str(), &auth)
-//     // //     .unwrap();
-//     // let data: Item = client.get(()).unwrap();
-//     // println!("{:#?}", data);
- 
-   
-// }

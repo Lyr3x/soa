@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.openmdx.kernel.ResultSet href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account" hasMore="false" total="11">
+	<org.opencrx.kernel.account1.LegalEntity href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/97NB4O91UQORTH2MA4T2TYJFL" version="bW9kaWZpZWRBdD0yMDE5LTA1LTI2VDEyOjAxOjAxLjI3ODAwMFo=">
+		<industry>26</industry>
+		<numberOfEmployeesCategory>5</numberOfEmployeesCategory>
+		<fullName><![CDATA[Telekom AG]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:97NB4O91UQORTH2MA4T2TYJFL
+REV:20190526T120101Z
+N:Telekom AG
+FN:Telekom AG
+ADR;WORK:;;Konrad Adenauer Allee 9;Bonn;;53111;Germany
+END:VCARD
+]]></vcard>
+		<name><![CDATA[Telekom AG]]></name>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-05-26T12:01:01.278Z</createdAt>
+		<modifiedAt>2019-05-26T12:01:01.278Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:97NB4O91UQORTH2MA4T2TYJFL]]></_item>
+		</externalLink>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<accountState>1</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/97NB4O91UQORTH2MA4T2TYJFL]]></identity>
+		<accountRating>1</accountRating>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<accessLevelDelete>2</accessLevelDelete>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+	</org.opencrx.kernel.account1.LegalEntity>
+	<org.opencrx.kernel.account1.LegalEntity href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9DXSJ5D62FBHLH2MA4T2TYJFL" version="bW9kaWZpZWRBdD0yMDE5LTA1LTI2VDEyOjA0OjI1LjYxNjAwMFo=">
+		<industry>5</industry>
+		<numberOfEmployeesCategory>0</numberOfEmployeesCategory>
+		<fullName><![CDATA[Germania GmbH]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:9DXSJ5D62FBHLH2MA4T2TYJFL
+REV:20190526T120425Z
+N:Germania GmbH
+FN:Germania GmbH
+ADR;WORK:;;Schlossallee 2;Bonn;;53111;--none--
+END:VCARD
+]]></vcard>
+		<name><![CDATA[Germania GmbH]]></name>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-05-26T12:04:25.616Z</createdAt>
+		<modifiedAt>2019-05-26T12:04:25.616Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:9DXSJ5D62FBHLH2MA4T2TYJFL]]></_item>
+		</externalLink>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<accountState>1</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9DXSJ5D62FBHLH2MA4T2TYJFL]]></identity>
+		<accountRating>3</accountRating>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<accessLevelDelete>2</accessLevelDelete>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+	</org.opencrx.kernel.account1.LegalEntity>
+	<org.opencrx.kernel.account1.LegalEntity href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9DXSJ6MJS0KX5H2MA4T2TYJFL" version="bW9kaWZpZWRBdD0yMDE5LTA1LTI2VDEyOjA1OjM2LjE0NDAwMFo=">
+		<industry>5</industry>
+		<numberOfEmployeesCategory>3</numberOfEmployeesCategory>
+		<fullName><![CDATA[Dirk Müller GmbH]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:9DXSJ6MJS0KX5H2MA4T2TYJFL
+REV:20190526T120536Z
+N:Dirk Müller GmbH
+FN:Dirk Müller GmbH
+ADR;WORK:;;Weberstraße 1;Bonn;;53115;--none--
+END:VCARD
+]]></vcard>
+		<name><![CDATA[Dirk Müller GmbH]]></name>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-05-26T12:05:36.144Z</createdAt>
+		<modifiedAt>2019-05-26T12:05:36.144Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:9DXSJ6MJS0KX5H2MA4T2TYJFL]]></_item>
+		</externalLink>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<accountState>1</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9DXSJ6MJS0KX5H2MA4T2TYJFL]]></identity>
+		<accountRating>3</accountRating>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<accessLevelDelete>2</accessLevelDelete>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+	</org.opencrx.kernel.account1.LegalEntity>
+	<org.opencrx.kernel.account1.Contact href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9ENFSDRCBESBTH2MA4T2TYJFL" version="bW9kaWZpZWRBdD0yMDE5LTA1LTI2VDEzOjI0OjM2Ljk3NDAwMFo=">
+		<organization><![CDATA[SmartHoover Ltd.]]></organization>
+		<fullName><![CDATA[Smith, John Steven]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:9ENFSDRCBESBTH2MA4T2TYJFL
+REV:20190526T132437Z
+N:Smith;John;Steven;Mr.;
+FN:John Steven Smith
+NICKNAME:Steve
+ORG:SmartHoover Ltd.
+TITLE:Senior Salesman
+TEL;WORK;VOICE:01233 33232
+ADR;WORK:;;Liverpool Road;London;;;Great Britain
+END:VCARD
+]]></vcard>
+		<salutationCode>1</salutationCode>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-05-26T13:24:36.974Z</createdAt>
+		<modifiedAt>2019-05-26T13:24:36.974Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:9ENFSDRCBESBTH2MA4T2TYJFL]]></_item>
+		</externalLink>
+		<preferredWrittenLanguage>110</preferredWrittenLanguage>
+		<jobTitle><![CDATA[Senior Salesman]]></jobTitle>
+		<doNotEMail>false</doNotEMail>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<doNotPostalMail>false</doNotPostalMail>
+		<firstName><![CDATA[John]]></firstName>
+		<doNotBulkPostalMail>false</doNotBulkPostalMail>
+		<nickName><![CDATA[Steve]]></nickName>
+		<education>7</education>
+		<gender>1</gender>
+		<accountState>1</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9ENFSDRCBESBTH2MA4T2TYJFL]]></identity>
+		<accountRating>0</accountRating>
+		<department><![CDATA[Sales]]></department>
+		<preferredContactMethod>3</preferredContactMethod>
+		<closingCode>201</closingCode>
+		<preferredSpokenLanguage>110</preferredSpokenLanguage>
+		<familyStatus>1</familyStatus>
+		<doNotPhone>false</doNotPhone>
+		<lastName><![CDATA[Smith]]></lastName>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<annualIncomeCurrency>978</annualIncomeCurrency>
+		<doNotFax>false</doNotFax>
+		<middleName><![CDATA[Steven]]></middleName>
+		<governmentId><![CDATA[90123]]></governmentId>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+		<jobRole><![CDATA[Senior Salesman]]></jobRole>
+	</org.opencrx.kernel.account1.Contact>
+	<org.opencrx.kernel.account1.Contact href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9EVAJAOUTHPT5H84KQGL5CLHT" version="bW9kaWZpZWRBdD0yMDE5LTA0LTExVDE2OjE0OjUzLjg3NjAwMFo=">
+		<fullName><![CDATA[Alda, Sascha]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:9EVAJAOUTHPT5H84KQGL5CLHT
+REV:20190411T161454Z
+N:Alda;Sascha;;Dr.;
+FN:Sascha Alda
+END:VCARD
+]]></vcard>
+		<salutationCode>8</salutationCode>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-04-11T16:14:53.876Z</createdAt>
+		<modifiedAt>2019-04-11T16:14:53.876Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:9EVAJAOUTHPT5H84KQGL5CLHT]]></_item>
+		</externalLink>
+		<preferredWrittenLanguage>0</preferredWrittenLanguage>
+		<doNotEMail>false</doNotEMail>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<doNotPostalMail>false</doNotPostalMail>
+		<firstName><![CDATA[Sascha]]></firstName>
+		<doNotBulkPostalMail>false</doNotBulkPostalMail>
+		<education>0</education>
+		<gender>0</gender>
+		<accountState>0</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9EVAJAOUTHPT5H84KQGL5CLHT]]></identity>
+		<accountRating>0</accountRating>
+		<preferredContactMethod>0</preferredContactMethod>
+		<closingCode>0</closingCode>
+		<preferredSpokenLanguage>0</preferredSpokenLanguage>
+		<familyStatus>0</familyStatus>
+		<doNotPhone>false</doNotPhone>
+		<lastName><![CDATA[Alda]]></lastName>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<annualIncomeCurrency>0</annualIncomeCurrency>
+		<doNotFax>false</doNotFax>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+	</org.opencrx.kernel.account1.Contact>
+	<org.opencrx.kernel.account1.LegalEntity href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9K9OSN1V4YY95H2MA4T2TYJFL" version="bW9kaWZpZWRBdD0yMDE5LTA1LTI2VDEyOjAyOjMyLjg1NzAwMFo=">
+		<industry>42</industry>
+		<numberOfEmployeesCategory>5</numberOfEmployeesCategory>
+		<fullName><![CDATA[Mayer Werft AG]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:9K9OSN1V4YY95H2MA4T2TYJFL
+REV:20190526T120232Z
+N:Mayer Werft AG
+FN:Mayer Werft AG
+ADR;WORK:;;Mayer-Straße 11;Hamburg;;11111;--none--
+END:VCARD
+]]></vcard>
+		<name><![CDATA[Mayer Werft AG]]></name>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-05-26T12:02:32.857Z</createdAt>
+		<modifiedAt>2019-05-26T12:02:32.857Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:9K9OSN1V4YY95H2MA4T2TYJFL]]></_item>
+		</externalLink>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<accountState>1</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/9K9OSN1V4YY95H2MA4T2TYJFL]]></identity>
+		<accountRating>2</accountRating>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<accessLevelDelete>2</accessLevelDelete>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+	</org.opencrx.kernel.account1.LegalEntity>
+	<org.opencrx.kernel.account1.Contact href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/NI7XwEIBEd29BeMf4vj8cA" version="bW9kaWZpZWRBdD0yMDA5LTA3LTIxVDE3OjExOjE3Ljc0NjAwMFo=">
+		<fullName><![CDATA[Guest,]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:2.1
+UID:NI7XwEIBEd29BeMf4vj8cA
+REV:20090721T151117Z
+N:Guest;;;;
+FN: Guest
+END:VCARD
+]]></vcard>
+		<salutationCode>0</salutationCode>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User</owningUser>
+		<createdAt>2008-06-24T17:21:35.359Z</createdAt>
+		<modifiedAt>2009-07-21T17:11:17.746Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:NI7XwEIBEd29BeMf4vj8cA]]></_item>
+		</externalLink>
+		<preferredWrittenLanguage>0</preferredWrittenLanguage>
+		<doNotEMail>false</doNotEMail>
+		<owner>
+			<_item index="0"><![CDATA[Standard:admin-Standard.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<doNotPostalMail>false</doNotPostalMail>
+		<doNotBulkPostalMail>false</doNotBulkPostalMail>
+		<education>0</education>
+		<gender>0</gender>
+		<accountState>0</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/NI7XwEIBEd29BeMf4vj8cA]]></identity>
+		<accountRating>0</accountRating>
+		<preferredContactMethod>0</preferredContactMethod>
+		<closingCode>0</closingCode>
+		<preferredSpokenLanguage>0</preferredSpokenLanguage>
+		<familyStatus>0</familyStatus>
+		<doNotPhone>false</doNotPhone>
+		<lastName><![CDATA[Guest]]></lastName>
+		<createdBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</createdBy>
+		<annualIncomeCurrency>0</annualIncomeCurrency>
+		<doNotFax>false</doNotFax>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+	</org.opencrx.kernel.account1.Contact>
+	<org.opencrx.kernel.account1.Contact href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/RC9375R5ALYW9H84KQGL5CLHT" version="bW9kaWZpZWRBdD0yMDE5LTA1LTEwVDIwOjU1OjI5LjI4MTAwMFo=">
+		<organization><![CDATA[ProSyWis]]></organization>
+		<fullName><![CDATA[Wilken, Kilian]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:3.0
+UID:RC9375R5ALYW9H84KQGL5CLHT
+REV:20190510T205453Z
+N:Wilken;Kilian;;Mr.;
+FN:Kilian Wilken
+NICKNAME:Kilian
+ORG:ProSyWis
+TITLE:Software-Engineer
+BDAY:19941103T000000Z
+TEL;WORK;VOICE:012334456789
+ADR;WORK:;;Musterstraße 24;Bonn;;53225;Germany
+END:VCARD]]></vcard>
+		<salutationCode>1</salutationCode>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>
+		<createdAt>2019-04-24T11:41:32.336Z</createdAt>
+		<modifiedAt>2019-05-10T20:55:29.281Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:RC9375R5ALYW9H84KQGL5CLHT]]></_item>
+		</externalLink>
+		<preferredWrittenLanguage>110</preferredWrittenLanguage>
+		<jobTitle><![CDATA[Software-Engineer]]></jobTitle>
+		<doNotEMail>false</doNotEMail>
+		<owner>
+			<_item index="0"><![CDATA[Standard:guest.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<doNotPostalMail>false</doNotPostalMail>
+		<firstName><![CDATA[Kilian]]></firstName>
+		<doNotBulkPostalMail>true</doNotBulkPostalMail>
+		<nickName><![CDATA[Kilian]]></nickName>
+		<education>7</education>
+		<gender>1</gender>
+		<accountState>0</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/RC9375R5ALYW9H84KQGL5CLHT]]></identity>
+		<annualIncomeAmount>100000.000000000</annualIncomeAmount>
+		<accountRating>0</accountRating>
+		<department><![CDATA[IT]]></department>
+		<placeOfOrigin><![CDATA[Bonn]]></placeOfOrigin>
+		<preferredContactMethod>1</preferredContactMethod>
+		<closingCode>101</closingCode>
+		<preferredSpokenLanguage>138</preferredSpokenLanguage>
+		<familyStatus>0</familyStatus>
+		<doNotPhone>true</doNotPhone>
+		<lastName><![CDATA[Wilken]]></lastName>
+		<createdBy>
+			<_item index="0"><![CDATA[guest]]></_item>
+		</createdBy>
+		<annualIncomeCurrency>978</annualIncomeCurrency>
+		<doNotFax>true</doNotFax>
+		<birthdate>1994-11-03T00:00:00.000Z</birthdate>
+		<placeOfBirth><![CDATA[Bonn]]></placeOfBirth>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<aliasName><![CDATA[KW]]></aliasName>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+	</org.opencrx.kernel.account1.Contact>
+	<org.opencrx.kernel.account1.Contact href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/admin-Standard" version="bW9kaWZpZWRBdD0yMDA5LTA3LTIxVDE3OjExOjQ0Ljc0MTAwMFo=">
+		<fullName><![CDATA[admin-Standard,]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:2.1
+UID:admin-Standard
+REV:20090721T151144Z
+N:admin-Standard;;;;
+FN: admin-Standard
+END:VCARD
+]]></vcard>
+		<salutationCode>0</salutationCode>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User</owningUser>
+		<createdAt>2008-06-24T16:10:16.109Z</createdAt>
+		<modifiedAt>2009-07-21T17:11:44.741Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:admin-Standard]]></_item>
+		</externalLink>
+		<preferredWrittenLanguage>0</preferredWrittenLanguage>
+		<doNotEMail>false</doNotEMail>
+		<owner>
+			<_item index="0"><![CDATA[Standard:admin-Standard.User]]></_item>
+			<_item index="1"><![CDATA[Standard:Users]]></_item>
+			<_item index="2"><![CDATA[Standard:Administrators]]></_item>
+		</owner>
+		<doNotPostalMail>false</doNotPostalMail>
+		<doNotBulkPostalMail>false</doNotBulkPostalMail>
+		<education>0</education>
+		<gender>0</gender>
+		<accountState>0</accountState>
+		<disabled>false</disabled>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/admin-Standard]]></identity>
+		<accountRating>0</accountRating>
+		<preferredContactMethod>0</preferredContactMethod>
+		<closingCode>0</closingCode>
+		<preferredSpokenLanguage>0</preferredSpokenLanguage>
+		<familyStatus>0</familyStatus>
+		<doNotPhone>false</doNotPhone>
+		<lastName><![CDATA[admin-Standard]]></lastName>
+		<createdBy>
+			<_item index="0"><![CDATA[admin-Root]]></_item>
+		</createdBy>
+		<annualIncomeCurrency>0</annualIncomeCurrency>
+		<doNotFax>false</doNotFax>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>
+			<_item index="1" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+	</org.opencrx.kernel.account1.Contact>
+	<org.opencrx.kernel.account1.Group href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/admin-Standard~Private" version="bW9kaWZpZWRBdD0yMDEwLTAzLTMxVDE4OjE3OjA2LjU1ODAwMFo=">
+		<fullName><![CDATA[admin-Standard~Private]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:2.1
+UID:admin-Standard~Private
+REV:20100331T161706Z
+N:admin-Standard~Private
+FN:admin-Standard~Private
+END:VCARD
+]]></vcard>
+		<name><![CDATA[admin-Standard~Private]]></name>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User</owningUser>
+		<createdAt>2010-03-31T18:17:06.558Z</createdAt>
+		<modifiedAt>2010-03-31T18:17:06.558Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:admin-Standard~Private]]></_item>
+		</externalLink>
+		<owner>
+			<_item index="0"><![CDATA[Standard:admin-Standard.User]]></_item>
+			<_item index="1"><![CDATA[Standard:admin-Standard.Group]]></_item>
+		</owner>
+		<accountState>0</accountState>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/admin-Standard~Private]]></identity>
+		<accountRating>0</accountRating>
+		<createdBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</createdBy>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.Group">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.Group</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+	</org.opencrx.kernel.account1.Group>
+	<org.opencrx.kernel.account1.Group href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/guest~Private" version="bW9kaWZpZWRBdD0yMDEwLTAzLTMxVDE4OjE4OjE3Ljg1MTAwMFo=">
+		<fullName><![CDATA[guest~Private]]></fullName>
+		<modifiedBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</modifiedBy>
+		<vcard><![CDATA[BEGIN:VCARD
+VERSION:2.1
+UID:guest~Private
+REV:20100331T161817Z
+N:guest~Private
+FN:guest~Private
+END:VCARD
+]]></vcard>
+		<name><![CDATA[guest~Private]]></name>
+		<owningUser href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User</owningUser>
+		<createdAt>2010-03-31T18:18:17.851Z</createdAt>
+		<modifiedAt>2010-03-31T18:18:17.851Z</modifiedAt>
+		<externalLink>
+			<_item index="0"><![CDATA[VCARD:guest~Private]]></_item>
+		</externalLink>
+		<owner>
+			<_item index="0"><![CDATA[Standard:admin-Standard.User]]></_item>
+			<_item index="1"><![CDATA[Standard:guest.Group]]></_item>
+		</owner>
+		<accountState>0</accountState>
+		<accessLevelUpdate>2</accessLevelUpdate>
+		<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/guest~Private]]></identity>
+		<accountRating>0</accountRating>
+		<createdBy>
+			<_item index="0"><![CDATA[admin-Standard]]></_item>
+		</createdBy>
+		<accessLevelBrowse>3</accessLevelBrowse>
+		<owningGroup>
+			<_item index="0" href="https://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.Group">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.Group</_item>
+		</owningGroup>
+		<accessLevelDelete>2</accessLevelDelete>
+	</org.opencrx.kernel.account1.Group>
+</org.openmdx.kernel.ResultSet>

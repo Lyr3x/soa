@@ -1,0 +1,16 @@
+[
+    User {
+        userName: "admin",
+        userRole: "Admin",
+        status: "Enabled",
+        employeeName: "User Last Name",
+        employeeId: "1",
+    },
+    User {
+        userName: "niklas",
+        userRole: "ESS",
+        status: "Enabled",
+        employeeName: "Niklas R",
+        employeeId: "2",
+    },
+]

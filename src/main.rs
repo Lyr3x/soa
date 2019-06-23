@@ -5,14 +5,15 @@ mod openCRX;
 extern crate serde_derive;
 extern crate serde;
 extern crate serde_xml_rs;
-
+extern crate hyper;
+extern crate xmlJSON;
 
 use serde_xml_rs::from_reader;
 
 fn main() {
 
     let orangeHrm = "https://sepp-hrm.inf.h-brs.de";
-    let orangeHrmDocker = "http://192.168.2.90:8088";
+    let orangeHrmDocker = "https://orangehrm.ironmanserver.de";
 
     let data = orangeHrm::post::TokenIssuePost {
             client_id: String::from("admin"),
@@ -22,12 +23,10 @@ fn main() {
     
 
     let access_token = orangeHrm::post::basic_post(orangeHrmDocker, data);
-    // orangeHrm::get::getUserList(orangeHrmDocker, &access_token);
+    orangeHrm::get::getUserList(orangeHrmDocker, &access_token);
     let username = "guest";
     let password = "guest";
-    // let openCRX = String::from("https://{}:{}@sepp-crm.inf.h-brs.de/opencrx-core-CRX/",username, password);
     let openCRX = format!("http://{}:{}@sepp-crm.inf.h-brs.de/opencrx-core-CRX",username,password);
 
-    // openCRX::get::get_user_list(&openCRX);
-    openCRX::get::api_get();
+    openCRX::get::get();
 }
