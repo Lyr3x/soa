@@ -3,6 +3,7 @@ extern crate hyper;
 use std::io::{self, Write};
 use hyper::Client;
 use hyper::rt::{self, Future, Stream};
+use hyper::{Method, Request};
 
 use serde_xml_rs::from_reader;
 
@@ -25,19 +26,34 @@ struct Item {
 
 pub fn api_get() {
    rt::run(rt::lazy(|| {
-       let client = Client::new();
+        let client = Client::new();
+        let uri = "http://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account?userName=guest".parse().unwrap();
+        let mut headers = Headers::new();
+            headers.set(
+                Authorization(
+                    Basic {
+                        username: "guest".to_owned(),
+                        password: "guest".to_owned()
+                    }
+                )
+            );
 
-let uri = "http://sepp-crm.inf.h-brs.de/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account?userName=guest".parse().unwrap();
+        let req = Request::builder()
+            .method(Method::GET)
+            .uri(uri)
+            .header(headers)
+            .unwrap();
 
-client
-    .get(uri)
-    .map(|res| {
-        println!("Response: {}", res.status());
-    })
-    .map_err(|err| {
-        println!("Error: {}", err);
-    })
-    }));
+        client
+            .request(req)
+            .map(|res| {
+                println!("Response: {}", res.status());
+            })
+            .map_err(|err| {
+                println!("Error: {}", err);
+            })
+            })
+        );
 }
 
 
@@ -53,6 +69,6 @@ client
 //     // //     .unwrap();
 //     // let data: Item = client.get(()).unwrap();
 //     // println!("{:#?}", data);
- 
-   
+
+
 // }

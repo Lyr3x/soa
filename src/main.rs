@@ -19,9 +19,9 @@ fn main() {
             client_secret: String::from("admin"),
             grant_type: String::from("client_credentials")
         };
-    
 
-    let access_token = orangeHrm::post::basic_post(orangeHrmDocker, data);
+
+    //let access_token = orangeHrm::post::basic_post(orangeHrmDocker, data);
     // orangeHrm::get::getUserList(orangeHrmDocker, &access_token);
     let username = "guest";
     let password = "guest";
