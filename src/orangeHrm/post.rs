@@ -22,7 +22,7 @@ pub struct TokenIssuePost {
 }
 fn write_to_file(body : &String) -> std::io::Result<()>{
     let mut file = File::create("orange_hrm_post.txt")?;
-    let len = body.len();
+    // let len = body.len();
     let slice = &body[..];
     file.write_all(slice.as_bytes())?;
     Ok(())

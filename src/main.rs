@@ -8,7 +8,7 @@ extern crate serde_xml_rs;
 extern crate hyper;
 extern crate xmlJSON;
 
-use serde_xml_rs::from_reader;
+// use serde_xml_rs::from_reader;
 
 fn main() {
 

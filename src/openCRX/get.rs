@@ -1,17 +1,17 @@
-use std::io::{self, Write};
-use hyper::Client;
-use hyper::rt::{self, Future, Stream};
+// use std::io::{self, Write};
+// use hyper::Client;
+// use hyper::rt::{self, Future, Stream};
 extern crate reqwest;
 use reqwest::header;
 use std::io::Read;
-use std::collections::HashMap;
+// use std::collections::HashMap;
 use std::fs::File;
 use std::io::prelude::*;
 
 
 fn write_to_file(body : &String) -> std::io::Result<()>{
     let mut file = File::create("opencrx.txt")?;
-    let len = body.len();
+    // let len = body.len();
     let slice = &body[..];
     file.write_all(slice.as_bytes())?;
     Ok(())

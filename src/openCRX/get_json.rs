@@ -2,9 +2,9 @@ extern crate hyper;
 extern crate restson;
 
 use restson::{Error, RestClient, RestPath};
-use std::time::Duration;
+// use std::time::Duration;
 use hyper::header::*;
-use std::io::prelude::*;
+// use std::io::prelude::*;
 use std::{
     fs::File,
     io::{BufWriter, Write},
