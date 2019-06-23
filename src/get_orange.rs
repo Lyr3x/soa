@@ -28,7 +28,7 @@ impl RestPath<()> for UserList {
     }
 }
 
-pub fn get(url: &str, access_token: &str) {
+pub fn getUserList(url: &str, access_token: &str) {
     let mut client = RestClient::new(&url).unwrap();
     let mut bearer = "Bearer ".to_string();
     bearer.push_str(&access_token);

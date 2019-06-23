@@ -21,7 +21,6 @@ pub struct TokenIssuePost {
 
 pub fn basic_post(url: &str, data: TokenIssuePost) -> String {
     let mut client = RestClient::new(&url).unwrap();
-
     let serialized = serde_json::to_string(&data).unwrap();
     println!("{}",serialized );
     println!("{}", url);
