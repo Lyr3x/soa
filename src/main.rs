@@ -17,8 +17,8 @@ fn main() {
     let open_crx ="https://sepp-crm.inf.h-brs.de/";
 
     let data = orangeHrm::post::TokenIssuePost {
-            client_id: String::from("admin"),
-            client_secret: String::from("admin"),
+            client_id: String::from("tom"),
+            client_secret: String::from("tom123"),
             grant_type: String::from("client_credentials")
         };
 
