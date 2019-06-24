@@ -1,7 +1,6 @@
 extern crate restson;
 
-// use restson::{Error, RestClient, RestPath};
-use restson::{Error, RestPath};
+use restson::{Error, RestClient, RestPath};
 
 #[derive(Deserialize)]
 struct HttpBinBasicAuth {}
