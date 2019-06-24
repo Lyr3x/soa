@@ -28,7 +28,7 @@ struct UserList {
 
 impl RestPath<()> for UserList {
     fn get_path(_: ()) -> Result<String, Error> {
-        Ok(String::from("/symfony/web/api/v1/user"))
+        Ok(String::from("/symfony/web/index.php/api/v1/user"))
     }
 }
 fn write_to_file(body : &Vec<User>) -> std::io::Result<()>{
